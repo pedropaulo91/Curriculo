@@ -1,0 +1,12 @@
+/* Colunas */
+.flex-container__coluna-esquerda {
+	background-color: #4a5759;
+	align-items: center;
+	display:flex;
+	flex-direction: column;
+}
+
+.flex-container__coluna-direita {
+	padding: 0 1.2rem;
+	background-color: #dedbd2;
+}

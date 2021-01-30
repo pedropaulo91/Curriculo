@@ -1,0 +1,31 @@
+/* Media Queries */
+
+/* Desktops */
+@media only screen and (min-width: 960px) {
+
+	body {
+		max-width: 2000px;
+		margin: 0 auto;
+	}
+
+	.flex-container {
+		flex-direction: row;
+	}
+
+	.flex-container__coluna-esquerda {
+		min-width: 460px;
+		flex: 30%;
+	}
+
+	.flex-container__coluna-direita {
+		padding: 0 1.2rem;
+		flex: 70%;
+	}
+	
+	.coluna-esquerda__sticky-container {
+		top: 0;
+		position: sticky;
+	}
+
+}
+

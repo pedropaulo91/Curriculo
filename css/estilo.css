@@ -1,0 +1,152 @@
+@charset "UTF-8";
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  min-width: 400px;
+}
+
+.coluna-esquerda__sticky-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Colunas */
+.flex-container__coluna-esquerda {
+  background-color: #4a5759;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container__coluna-direita {
+  padding: 0 1.2rem;
+  background-color: #dedbd2;
+}
+
+/* Foto */
+.coluna-esquerda__foto {
+  width: 50%;
+  margin-top: 0.5rem;
+  border-radius: 50%;
+  align-self: center;
+}
+
+/* Informações de Contato */
+.coluna-esquerda__info-contato {
+  width: 100%;
+}
+
+.info-contato__titulo {
+  text-align: center;
+}
+
+.info-contato__contatos {
+  list-style-type: none;
+  padding-inline-start: 1.2rem;
+}
+
+.contato__item {
+  margin-bottom: 0.8rem;
+}
+
+.contato__item::before {
+  vertical-align: -50%;
+  margin-right: 5px;
+}
+
+.contato__localizacao::before {
+  content: url("../img/icones/localizacao.png");
+}
+
+.contato__telefone::before {
+  content: url("../img/icones/telefone.png");
+}
+
+.contato__email::before {
+  content: url("../img/icones/email.png");
+}
+
+.contato__linkedin::before {
+  content: url("../img/icones/linkedin.png");
+}
+
+.contato__github::before {
+  content: url("../img/icones/github.png");
+}
+
+/* Links */
+.contato__link:link, .curso__link:link {
+  color: black;
+  text-decoration: none;
+}
+.contato__link:visited, .curso__link:visited {
+  color: black;
+}
+.contato__link:hover, .curso__link:hover {
+  text-decoration: underline;
+}
+
+/* Resumo Profissional */
+.resumo-profissinal__titulo {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.resumo-profissional__texto {
+  padding: 0 1.2rem;
+}
+
+/* Objetivo Profissional */
+.objetivo-profissional__titulo {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.objetivo-profissional__texto {
+  padding: 0 1.2rem;
+}
+
+/* Experiência Profissional */
+.empresa__nome {
+  font-weight: bold;
+}
+
+.empresa__cargo {
+  font-style: italic;
+}
+
+/* Media Queries */
+/* Desktops */
+@media only screen and (min-width: 960px) {
+  body {
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+
+  .flex-container {
+    flex-direction: row;
+  }
+
+  .flex-container__coluna-esquerda {
+    min-width: 460px;
+    flex: 30%;
+  }
+
+  .flex-container__coluna-direita {
+    padding: 0 1.2rem;
+    flex: 70%;
+  }
+
+  .coluna-esquerda__sticky-container {
+    top: 0;
+    position: sticky;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,26 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+} 
+
+.flex-container {
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	box-sizing: border-box;
+	min-width: 400px;
+}
+
+.coluna-esquerda__sticky-container {
+	display: flex;
+	flex-direction: column;
+}
+
+
+@import '../sass/_colunas';
+@import '../sass/foto';
+@import '../sass/_info_contato';
+@import '../sass/_links';
+@import '../sass/_resumo';
+@import '../sass/_objetivo';
+@import '../sass/_experiencia';
+@import '../sass/_media_queries';

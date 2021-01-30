@@ -1,0 +1,42 @@
+/* Informações de Contato */
+.coluna-esquerda__info-contato{
+	width: 100%;
+}
+
+.info-contato__titulo {
+	text-align: center;
+}
+
+.info-contato__contatos {
+	list-style-type: none;
+	padding-inline-start: 1.2rem;
+}
+
+.contato__item {
+	margin-bottom: .8rem;
+}
+
+.contato__item::before {
+	vertical-align: -50%;
+	margin-right: 5px;
+}
+
+.contato__localizacao::before {
+	content: url("../img/icones/localizacao.png");
+}
+
+.contato__telefone::before {
+	content: url("../img/icones/telefone.png");
+}
+
+.contato__email::before {
+	content: url("../img/icones/email.png");
+}
+
+.contato__linkedin::before {
+	content: url("../img/icones/linkedin.png");
+}
+
+.contato__github::before {
+	content: url("../img/icones/github.png");
+}
