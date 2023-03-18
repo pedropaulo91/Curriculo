@@ -7,91 +7,22 @@
 	<title>Meu Currículo</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/estilo.css">
-	<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+	<script src="https://unpkg.com/vue@3"></script>
 </head>
 
 <body>
-	<main class="flex-container">
-		<section class="flex-container__coluna-esquerda">
-			<div class="coluna-esquerda__sticky-container">
-				<img class="coluna-esquerda__foto" src="img/foto.png" alt="Minha foto"></img>
-				<section class="coluna-esquerda__info-contato">
-					<h2 class="info-contato__titulo">Informações de Contato</h2>
-					<ul class="info-contato__contatos">
-						<li class="contato__item contato__localizacao"><a class="contato__link"
-								href="https://goo.gl/maps/dFv5MNGhZ5vfTjnV8" target="_blank">Brasil, Rio de Janeiro,
-								Campo Grande</a></li>
-						<li class="contato__item contato__telefone"><a class="contato__link"
-								href="tel:+552199891-8873">(21) 99891-8873</a></li>
-						<li class="contato__item contato__email"><a class="contato__link"
-								href="mailto:pedro.xzt@gmail.com">pedro.xzt@gmail.com</a></li>
-						<li class="contato__item contato__linkedin"><a class="contato__link"
-								href="http://www.linkedin.com/in/pedroopauloo/" target="_blank">pedroopauloo</a></li>
-						<li class="contato__item contato__github"><a class="contato__link"
-								href="https://github.com/pedropaulo91" target="_blank">pedropaulo91</a></li>
-					</ul>
-				</section>
-				<section class="coluna-esquerda__resumo-profissinal">
-					<h2 class="resumo-profissinal__titulo">Resumo Profissional</h2>
-					<p class="resumo-profissional__texto">
-						Bacharel em Sistemas de Informação pela Universidade Estácio de Sá e Técnico em Informática.
-					</p>
-				</section>
-				<section class="coluna-esquerda__objetivo-profissional">
-					<h2 class="objetivo-profissional__titulo">Objetivo Profissional</h2>
-					<p class="objetivo-profissional__texto">
-						Desenvolvedor .NET Júnior
-					</p>
-				</section>
-			</div>
-		</section>
-		<section class="flex-container__coluna-direita">
-			<section class="coluna-direita__nome">
-				<h1>Pedro Paulo de Souza Azevedo</h1>
-			</section>
-
-			<section class="coluna-direita__historico-educacional">
-
-				<h2>Histórico Educacional</h2>
-
-				<h3>Ensino Superior</h3>
-				<p>Sistemas de Informação, Universidade Estácio de Sá (outubro/2017)</p>
-
-				<h3>Curso Técnico – Médio (2º grau)</h3>
-				<p>Técnico em Informática, SENAI (agosto/2012)</p>
-
-				<h3>Cursos Complementares</h3>
-
-				<ul class="historico-educacional__cursos">
-					<li><a class="curso__link"
-							href="https://cursos.alura.com.br/user/pedroo-pauloo/fullCertificate/22ecc5d03493ba26f7778851c126bee3"
-							target="_blank">Certificado completo dos cursos concluídos na Alura </a></li>
-					<li>Preparatório para FCE (First Certificate in English) - Cultura Inglesa (dezembro/2012) </li>
-					<li>Conversação - Cultura Inglesa (dezembro/2011) </li>
-					<li>Inglês - Cultura Inglesa (junho/2011) </li>
-					<li> Montagem e Manutenção de Computadores com Redes - SENAC (março/2009) </li>
-				</ul>
-			</section>
-
-			<section class="coluna-direita__idiomas">
-				<h2>Idiomas</h2>
-				<p>Inglês: leitura intermediária, escrita intermediária, conversação intermediária</p>
-			</section>
-
-			<section class="coluna-direita__experiencia-profissional">
-				<h2>Experiência Profissional</h2>
-
-				<ul id="experiencias" class="experiencia-profissional__empresas">
-					<li v-for="experiencia in colecaoExperiencias">
-						<p><span class="empresa__nome">{{experiencia.empresa}}</span> - {{experiencia.periodo}}</p>
-						<p class="empresa__cargo">{{experiencia.cargo}}</p>
-						<p class="empresa__descricao"> {{experiencia.descricao}}</p>
-					</li>
-				</ul>
-			</section>
-		</section>
+	<main id="app" class="flex-container">
+		<coluna-esquerda></coluna-esquerda>
+		<coluna-direita></coluna-direita>
 	</main>
-	<script src="js/script.js"></script>
+
+	<script> const app = Vue.createApp({}); </script>
+
+	<!-- Componentes -->
+	<script src="./components/ColunaEsquerda.js"></script>
+	<script src="./components/ColunaDireita.js"></script>
+
+	<script> app.mount('#app') </script>
 </body>
 
 </html>
