@@ -1,6 +1,5 @@
 app.component('coluna-esquerda', {
     template:
-        /*html*/
         `<section class="flex-container__coluna-esquerda">
         <div class="coluna-esquerda__sticky-container">
             <img class="coluna-esquerda__foto" src="img/foto.png" alt="Minha foto"></img>

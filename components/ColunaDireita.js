@@ -1,6 +1,5 @@
 app.component('coluna-direita', {
 	template:
-		/*html*/
 		`<section class="flex-container__coluna-direita">
 			<section class="coluna-direita__nome">
 				<h1>Pedro Paulo de Souza Azevedo</h1>
