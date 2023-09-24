@@ -24,7 +24,7 @@ app.component('coluna-direita', {
 				<h3>Ensino Superior</h3>
 				<p>Sistemas de Informação, Universidade Estácio de Sá (outubro/2017)</p>
 
-				<h3>Curso Técnico – Médio (2º grau)</h3>
+				<h3>Ensino Técnico</h3>
 				<p>Técnico em Informática, SENAI (agosto/2012)</p>
 
 				<h3>Cursos Complementares</h3>
