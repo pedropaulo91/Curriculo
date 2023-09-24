@@ -5,6 +5,18 @@ app.component('coluna-direita', {
 				<h1>Pedro Paulo de Souza Azevedo</h1>
 			</section>
 
+			<section class="coluna-direita__experiencia-profissional">
+				<h2>Experiência Profissional</h2>
+
+				<ul id="experiencias" class="experiencia-profissional__empresas">
+					<li v-for="experiencia in colecaoExperiencias">
+						<p><span class="empresa__nome">{{experiencia.empresa}}</span> - {{experiencia.periodo}}</p>
+						<p class="empresa__cargo">{{experiencia.cargo}}</p>
+						<p class="empresa__descricao"> {{experiencia.descricao}}</p>
+					</li>
+				</ul>
+			</section>
+		
 			<section class="coluna-direita__historico-educacional">
 
 				<h2>Histórico Educacional</h2>
@@ -31,18 +43,6 @@ app.component('coluna-direita', {
 			<section class="coluna-direita__idiomas">
 				<h2>Idiomas</h2>
 				<p>Inglês: leitura intermediária, escrita intermediária, conversação intermediária</p>
-			</section>
-
-			<section class="coluna-direita__experiencia-profissional">
-				<h2>Experiência Profissional</h2>
-
-				<ul id="experiencias" class="experiencia-profissional__empresas">
-					<li v-for="experiencia in colecaoExperiencias">
-						<p><span class="empresa__nome">{{experiencia.empresa}}</span> - {{experiencia.periodo}}</p>
-						<p class="empresa__cargo">{{experiencia.cargo}}</p>
-						<p class="empresa__descricao"> {{experiencia.descricao}}</p>
-					</li>
-				</ul>
 			</section>
 		</section>
 		`,
