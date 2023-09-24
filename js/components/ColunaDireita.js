@@ -32,7 +32,7 @@ app.component('coluna-direita', {
 				<ul class="historico-educacional__cursos">
 					<li><a class="curso__link"
 							href="https://cursos.alura.com.br/user/pedroo-pauloo/fullCertificate/22ecc5d03493ba26f7778851c126bee3"
-							target="_blank">Certificado completo dos cursos concluídos na Alura </a></li>
+							target="_blank">Certificado completo dos cursos concluídos na Alura - clique para visualizar</a></li>
 					<li>Preparatório para FCE (First Certificate in English) - Cultura Inglesa (dezembro/2012) </li>
 					<li>Conversação - Cultura Inglesa (dezembro/2011) </li>
 					<li>Inglês - Cultura Inglesa (junho/2011) </li>
