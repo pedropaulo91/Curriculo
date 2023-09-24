@@ -36,7 +36,6 @@ app.component('coluna-direita', {
 					<li>Preparatório para FCE (First Certificate in English) - Cultura Inglesa (dezembro/2012) </li>
 					<li>Conversação - Cultura Inglesa (dezembro/2011) </li>
 					<li>Inglês - Cultura Inglesa (junho/2011) </li>
-					<li> Montagem e Manutenção de Computadores com Redes - SENAC (março/2009) </li>
 				</ul>
 			</section>
 
