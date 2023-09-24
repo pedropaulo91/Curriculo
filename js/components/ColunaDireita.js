@@ -58,7 +58,7 @@ const arrayExperiencias = [
 		empresa: "Alterdata Software",
 		periodo: "de agosto/2021 até o momento",
 		cargo: "Desenvolvedor Web C# Júnior",
-		descricao: "Manutenção na Bimer API, um projeto Web API desenvolvido com C#, WCF, SQL Server e Git. Utilização do GitLab para gerenciamento de repositórios, Git Flow para realização das entregas, Jira para o controle de tarefas e Postman para testes das rotas na API."
+		descricao: "Manutenção na Bimer API, um projeto Web API desenvolvido com C#, WCF, SQL Server e Git. Utilização do GitLab para gerenciamento de repositórios, Git Flow para realização das entregas, Jira para o controle de tarefas e Postman para testes das rotas na API. Participação na criação do módulo Pré-pedido e manutenção do módulo Gestão de Locações e Serviços do Bimer UP, um sistema Web desenvolvido com Vue.js, JavaScript, Node.js e GraphQL."
 	},
 	{
 		empresa: "VSS Sistemas",
