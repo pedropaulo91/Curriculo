@@ -28,7 +28,7 @@ app.component('coluna-esquerda', {
             <section class="coluna-esquerda__objetivo-profissional">
                 <h2 class="objetivo-profissional__titulo">Objetivo Profissional</h2>
                 <p class="objetivo-profissional__texto">
-                    Desenvolvedor .NET Júnior
+                    Desenvolvedor Full Stack
                 </p>
             </section>
         </div>
