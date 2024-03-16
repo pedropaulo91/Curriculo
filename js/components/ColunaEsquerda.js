@@ -22,7 +22,7 @@ app.component('coluna-esquerda', {
             <section class="coluna-esquerda__resumo-profissinal">
                 <h2 class="resumo-profissinal__titulo">Resumo Profissional</h2>
                 <p class="resumo-profissional__texto">
-                    Bacharel em Sistemas de Informação pela Universidade Estácio de Sá e Técnico em Informática.
+                    Desenvolvedor de software com mais de 3 anos de experiência. Minhas habilidades abrangem back-end e front-end com C#, SQL Server, HTML, CSS, JavaScript e Vue.js.
                 </p>
             </section>
             <section class="coluna-esquerda__objetivo-profissional">
